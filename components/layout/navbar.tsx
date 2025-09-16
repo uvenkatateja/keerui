@@ -4,6 +4,7 @@ import Link from "next/link";
 import { navItems } from "@/contants";
 import { GithubLink, TwitterLink } from "../ui/SocialButtons";
 import Image from "next/image";
+import NavbarDrawer from "./navbar-drawer";
 
 const Navbar = () => {
   return (
@@ -44,6 +45,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center space-x-1 lg:hidden">
             <Themetoggle />
+            <NavbarDrawer />
           </div>
         </div>
       </div>
